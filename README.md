@@ -107,15 +107,15 @@ Tracks book returns and quality assessment
 ```
 
 ### Entity Relationship Diagram
-```
-branch ----< employees
-              |
-              |
-members >---- issued_status ----< books
-                    |
-                    |
-              return_status
-```
+
+![Library Management System ERD](ERD_diagram.png)
+
+The database follows a normalized structure with the following relationships:
+- **branch** (1) ← (N) **employees** - Each branch has multiple employees
+- **employees** (1) ← (N) **issued_status** - Each employee processes multiple book issues
+- **members** (1) ← (N) **issued_status** - Each member can issue multiple books
+- **books** (1) ← (N) **issued_status** - Each book can be issued multiple times
+- **issued_status** (1) ← (1) **return_status** - Each issue has one return record
 
 ---
 
