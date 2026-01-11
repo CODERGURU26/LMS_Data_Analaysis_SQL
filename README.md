@@ -108,7 +108,7 @@ Tracks book returns and quality assessment
 
 ### Entity Relationship Diagram
 
-![Library Management System ERD](https://github.com/CODERGURU26/library-management-system/blob/main/ERD_diagram.png?raw=true)
+![Library Management System ERD](LMS_ERD_diagram.png)
 
 **Note:** If the image doesn't appear, make sure `ERD_diagram.png` is uploaded to your repository root.
 
