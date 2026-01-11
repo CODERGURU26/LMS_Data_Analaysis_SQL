@@ -108,7 +108,7 @@ Tracks book returns and quality assessment
 
 ### Entity Relationship Diagram
 
-![Library Management System ERD](ERD_diagram.png)
+![Library Management System ERD](LMS_ERD.png)
 
 The database follows a normalized structure with the following relationships:
 - **branch** (1) ← (N) **employees** - Each branch has multiple employees
